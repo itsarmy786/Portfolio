@@ -1,0 +1,17 @@
+{
+  "name": "abdul-rehman-portfolio",
+  "version": "1.0.0",
+  "description": "Cybersecurity Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "build": "echo 'Build completed'"
+  },
+  "keywords": ["portfolio", "cybersecurity", "frontend", "web-development"],
+  "author": "Abdul Rehman Chishti",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
