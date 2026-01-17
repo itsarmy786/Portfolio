@@ -1,110 +1,624 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Abdul Rehman Chishti — CV</title>
+  <title>Abdul Rehman Chishti — Cybersecurity & IT Specialist</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-  <header class="cv-header">
-    <div class="avatar">AR</div>
-    <div>
-      <h1>Abdul Rehman Chishti</h1>
-      <p class="role">Computer Science / E-Commerce Specialist</p>
-      <div class="contact-buttons">
-        <a href="https://wa.me/923326385155" target="_blank" class="contact-btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        <a href="https://instagram.com/its.army_786" target="_blank" class="contact-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
-        <a href="https://https://m.facebook.com/profile.php?id=61550477638277&name=xhp_nt__fb__action__open_user" target="_blank" class="contact-btn facebook"><i class="fab fa-facebook"></i> Facebook</a>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+  
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="cursor-trail"></div>
+  
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <div class="logo">ARC</div>
+        <span class="logo-text">Abdul Rehman Chishti</span>
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+        <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a>
+        <a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a>
+        <a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a>
+        <a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a>
+        <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle-btn">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text animate__animated animate__fadeInUp">
+          <div class="badge animate__animated animate__pulse animate__infinite">🚀 Cybersecurity Enthusiast</div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Abdul Rehman Chishti</span>
+          </h1>
+          <h2 class="hero-subtitle">Cybersecurity Student • Frontend Developer • IT Specialist</h2>
+          <p class="hero-description">
+            Passionate cybersecurity student and frontend developer with hands-on experience in IT infrastructure, 
+            e-commerce systems, and mentoring aspiring tech professionals. Currently pursuing a degree in Cybersecurity 
+            at University of Central Punjab.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Students Mentored</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-glow">
+              <i class="fas fa-paper-plane"></i> Contact Me
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <i class="fas fa-eye"></i> View Projects
+            </a>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/abdul-rehman-chishti-437659347" target="_blank" class="social-icon linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://wa.me/923326385155" target="_blank" class="social-icon whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://instagram.com/its.army_786" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://github.com/itsarmy786" target="_blank" class="social-icon github">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image animate__animated animate__fadeInUp">
+          <div class="avatar-container">
+            <div class="avatar">
+              <div class="avatar-inner">AR</div>
+              <div class="avatar-ring"></div>
+              <div class="avatar-ring ring-2"></div>
+              <div class="avatar-ring ring-3"></div>
+            </div>
+            <div class="status-indicator">
+              <div class="status-dot"></div>
+              <span>Available for Opportunities</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <button id="theme-toggle" class="btn theme-toggle"><i class="fas fa-moon"></i></button>
-  </header>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
 
   <main class="container">
-    <!-- LEFT COLUMN -->
-    <aside class="card">
-      <div class="section">
-        <h2 class="section-title">Contact</h2>
-        <p><strong>Email:</strong> <a href="mailto:abdulrehmanchishtifarooqui@gmail.com">abdulrehmanchishtifarooqui@gmail.com</a></p>
-        <p><strong>Phone:</strong> <a href="tel:+923326385155">+92 332 6385155</a></p>
-        <p><strong>Location:</strong> Mian Channu, Pakistan</p>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-header animate-on-scroll">
+        <div class="section-icon">
+          <i class="fas fa-user-shield"></i>
+        </div>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Cybersecurity Enthusiast & Technology Specialist</p>
       </div>
-
-      <div class="section">
-        <h2 class="section-title">Skills</h2>
-        <div class="skills">
-          <span class="skill">Microsoft Office</span>
-          <span class="skill">Hardware & Software</span>
-          <span class="skill">E-Commerce</span>
-          <span class="skill">Teamwork</span>
-          <span class="skill">Problem Solving</span>
-          <span class="skill">Multitasking</span>
-          <span class="skill">Report Writing</span>
+      
+      <div class="about-grid">
+        <div class="card about-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3>Career Objective</h3>
+          <p>Aspiring cybersecurity professional seeking to leverage technical expertise in IT infrastructure, 
+          frontend development, and e-commerce systems to secure digital assets and build innovative solutions. 
+          Passionate about ethical hacking, network security, and mentoring the next generation of tech professionals.</p>
+        </div>
+        
+        <div class="card about-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Specializations</h3>
+          <ul class="specializations">
+            <li><i class="fas fa-shield-alt"></i> Cybersecurity Fundamentals</li>
+            <li><i class="fas fa-code"></i> Frontend Development</li>
+            <li><i class="fas fa-shopping-cart"></i> E-Commerce Systems</li>
+            <li><i class="fas fa-network-wired"></i> IT Infrastructure</li>
+            <li><i class="fas fa-chalkboard-teacher"></i> Technical Mentoring</li>
+            <li><i class="fas fa-tools"></i> System Troubleshooting</li>
+          </ul>
         </div>
       </div>
+    </section>
 
-      <div class="section">
-        <h2 class="section-title">Languages</h2>
-        <p>Urdu — Native</p>
-        <p>English — Fluent</p>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-header animate-on-scroll">
+        <div class="section-icon">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Comprehensive skill set for modern technology challenges</p>
       </div>
-    </aside>
-
-    <!-- RIGHT COLUMN -->
-    <section class="right">
-      <section class="card">
-        <h2 class="section-title">Profile</h2>
-        <p>Dynamic professional with experience at Amazon Office and internships in e-commerce platforms (eBay, Shopify, Walmart). Skilled at using computer systems to streamline operations, training students, and delivering consistent results in fast-paced environments.</p>
-      </section>
-
-      <section class="card">
-        <h2 class="section-title">Experience</h2>
-        <div class="job">
-          <h3>Amazon Office — Intern</h3>
-          <p class="meta">Mian Channu, Pakistan | Internship</p>
-          <p>Assisted with office administration tasks, data entry, and troubleshooting. Developed time management and teamwork skills.</p>
+      
+      <div class="skills-grid">
+        <div class="card skill-category animate-on-scroll">
+          <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+          <div class="skill-meter">
+            <div class="skill">
+              <span>Network Security</span>
+              <div class="meter">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Ethical Hacking</span>
+              <div class="meter">
+                <div class="progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Cryptography</span>
+              <div class="meter">
+                <div class="progress" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Risk Assessment</span>
+              <div class="meter">
+                <div class="progress" style="width: 82%"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="job">
-          <h3>E-Commerce Intern (eBay, Walmart, Shopify)</h3>
-          <p class="meta">Burewala, Punjab, Pakistan | Internship</p>
-          <p>Managed product listings, researched pricing, and assisted in optimizing listings to increase visibility.</p>
+        
+        <div class="card skill-category animate-on-scroll">
+          <h3><i class="fas fa-code"></i> Development</h3>
+          <div class="skill-meter">
+            <div class="skill">
+              <span>HTML5 / CSS3</span>
+              <div class="meter">
+                <div class="progress" style="width: 92%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="meter">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>React.js</span>
+              <div class="meter">
+                <div class="progress" style="width: 78%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Git / GitHub</span>
+              <div class="meter">
+                <div class="progress" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="job">
-          <h3>Matric Students — Teaching Coach</h3>
-          <p class="meta">Mian Channu, Pakistan | Part-time</p>
-          <p>Tutored matric students in computer science, assisted in exam preparation, and mentored in practical skills.</p>
+        
+        <div class="card skill-category animate-on-scroll">
+          <h3><i class="fas fa-tools"></i> IT & Tools</h3>
+          <div class="skill-meter">
+            <div class="skill">
+              <span>Linux Systems</span>
+              <div class="meter">
+                <div class="progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Network Administration</span>
+              <div class="meter">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Microsoft Office</span>
+              <div class="meter">
+                <div class="progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Wireshark / Nmap</span>
+              <div class="meter">
+                <div class="progress" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+        
+        <div class="card skill-category animate-on-scroll">
+          <h3><i class="fas fa-users"></i> Professional</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Team Leadership</span>
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Project Management</span>
+            <span class="skill-tag">Adaptability</span>
+            <span class="skill-tag">Critical Thinking</span>
+            <span class="skill-tag">Time Management</span>
+            <span class="skill-tag">Mentoring</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section class="card">
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="section-header animate-on-scroll">
+        <div class="section-icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">IT & Cybersecurity Journey</p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div>Internship</div>
+            <h3>Amazon Office — IT Intern</h3>
+            <p class="timeline-company">Mian Channu, Pakistan</p>
+            <ul class="timeline-details">
+              <li><i class="fas fa-check"></i> Assisted with IT infrastructure and network maintenance</li>
+              <li><i class="fas fa-check"></i> Provided technical support and system troubleshooting</li>
+              <li><i class="fas fa-check"></i> Implemented basic cybersecurity measures for office systems</li>
+              <li><i class="fas fa-check"></i> Managed data backup and recovery procedures</li>
+            </ul>
+            <div class="tech-tags">
+              <span>IT Support</span>
+              <span>Network Security</span>
+              <span>System Administration</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div > Experiance </div>
+            <h3>E-Commerce Platform Specialist</h3>
+            <p class="timeline-company">Shopify • eBay • Walmart | Burewala, Punjab</p>
+            <ul class="timeline-details">
+              <li><i class="fas fa-check"></i> Managed and secured e-commerce platforms</li>
+              <li><i class="fas fa-check"></i> Implemented security protocols for online transactions</li>
+              <li><i class="fas fa-check"></i> Optimized website performance and security</li>
+              <li><i class="fas fa-check"></i> Conducted vulnerability assessments</li>
+            </ul>
+            <div class="tech-tags">
+              <span>E-Commerce Security</span>
+              <span>Shopify</span>
+              <span>Web Security</span>
+              <span>Payment Security</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div>Class 9th to 12th</div>
+            <h3>Computer Science & Mathematics Tutor</h3>
+            <p class="timeline-company">Matric & Intermediate Students | Mian Channu</p>
+            <ul class="timeline-details">
+              <li><i class="fas fa-check"></i> Tutored 50+ students in computer science fundamentals</li>
+              <li><i class="fas fa-check"></i> Introduced cybersecurity concepts to beginners</li>
+              <li><i class="fas fa-check"></i> Guided students in programming and web development</li>
+              <li><i class="fas fa-check"></i> Developed customized learning materials</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Teaching</span>
+              <span>Mentoring</span>
+              <span>Curriculum Development</span>
+              <span>Technical Training</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="section-header animate-on-scroll">
+        <div class="section-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
         <h2 class="section-title">Education</h2>
-        <p><strong>Intermediate in Computer Science</strong> — Punjab College, Mian Channu</p>
-        <p><strong>Matriculation (Computer Science)</strong> — Govt Higher Secondary School, Burewala</p>
-      </section>
+        <p class="section-subtitle">Academic Journey in Technology & Security</p>
+      </div>
+      
+      <div class="education-grid">
+        <div class="card education-card animate-on-scroll">
+          <div class="edu-icon">
+            <div class="icon-wrapper">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+          </div>
+          <div class="edu-content">
+            <div class="edu-badge current">Current</div>
+            <h3>Bachelor's in Cybersecurity</h3>
+            <p class="edu-institute">University of Central Punjab (UCP), Lahore</p>
+            <p class="edu-period">Present</p>
+            <div class="edu-highlights">
+              <span><i class="fas fa-network-wired"></i> Network Security</span>
+              <span><i class="fas fa-lock"></i> Cryptography</span>
+              <span><i class="fas fa-bug"></i> Ethical Hacking</span>
+              <span><i class="fas fa-code"></i> Secure Programming</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card education-card animate-on-scroll">
+          <div class="edu-icon">
+            <div class="icon-wrapper">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+          </div>
+          <div class="edu-content">
+            <h3>Intermediate in Computer Science</h3>
+            <p class="edu-institute">Punjab College, Mian Channu</p>
+            <p class="edu-period">2023 - 2025</p>
+            <div class="edu-highlights">
+              <span><i class="fas fa-code"></i> Programming Fundamentals</span>
+              <span><i class="fas fa-database"></i> Database Systems</span>
+              <span><i class="fas fa-calculator"></i> Mathematics</span>
+              <span><i class="fas fa-flask"></i> Physics</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card education-card animate-on-scroll">
+          <div class="edu-icon">
+            <div class="icon-wrapper">
+              <i class="fas fa-school"></i>
+            </div>
+          </div>
+          <div class="edu-content">
+            <h3>Matriculation (Computer Science)</h3>
+            <p class="edu-institute">Govt Higher Secondary School, Burewala</p>
+            <p class="edu-period">2021 - 2023</p>
+            <div class="edu-highlights">
+              <span><i class="fas fa-desktop"></i> Computer Fundamentals</span>
+              <span><i class="fas fa-keyboard"></i> Programming Basics</span>
+              <span><i class="fas fa-paint-brush"></i> Web Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-header animate-on-scroll">
+        <div class="section-icon">
+          <i class="fas fa-project-diagram"></i>
+        </div>
+        <h2 class="section-title">Projects & Certifications</h2>
+        <p class="section-subtitle">Technical implementations and achievements</p>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="card project-card animate-on-scroll">
+          <div class="project-icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Portfolio Website with Security Features</h3>
+          <p class="project-desc">Secure personal portfolio implementing cybersecurity best practices, 
+          including HTTPS enforcement, secure headers, and input validation.</p>
+          <div class="project-tech">
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+            <span>Security Headers</span>
+          </div>
+        </div>
+        
+        <div class="card project-card animate-on-scroll">
+          <div class="project-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <h3>E-Commerce Security Audit</h3>
+          <p class="project-desc">Conducted security assessment of e-commerce platforms, 
+          identifying vulnerabilities and implementing security improvements.</p>
+          <div class="project-tech">
+            <span>Security Audit</span>
+            <span>Vulnerability Assessment</span>
+            <span>PCI Compliance</span>
+          </div>
+        </div>
+        
+        <div class="card project-card animate-on-scroll">
+          <div class="project-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>Network Security Lab</h3>
+          <p class="project-desc">Built a virtual lab environment to practice network security 
+          concepts, firewall configurations, and intrusion detection.</p>
+          <div class="project-tech">
+            <span>VirtualBox</span>
+            <span>Wireshark</span>
+            <span>Firewall Rules</span>
+          </div>
+        </div>
+        
+        <div class="card project-card animate-on-scroll">
+          <div class="project-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>Certifications in Progress</h3>
+          <p class="project-desc">Currently preparing for industry-recognized certifications 
+          in cybersecurity and IT infrastructure.</p>
+          <div class="project-tech">
+            <span>CompTIA Security+</span>
+            <span>CEH</span>
+            <span>Network+</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-header animate-on-scroll">
+        <div class="section-icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's collaborate on security projects or discuss opportunities</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+          <div class="card contact-card">
+            <h3>Contact Information</h3>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:abdulrehmanchishtifarooqui@gmail.com">abdulrehmanchishtifarooqui@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+923326385155">+92 332 6385155</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Mian Channu, Pakistan</p>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a href="https://www.linkedin.com/in/abdul-rehman-chishti-437659347" target="_blank" class="social-btn linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://wa.me/923326385155" target="_blank" class="social-btn whatsapp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://instagram.com/its.army_786" target="_blank" class="social-btn instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="social-btn github">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form animate-on-scroll">
+          <div class="card">
+            <form class="form" id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-glow btn-block">
+                <i class="fas fa-paper-plane"></i> Send Secure Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
-  <script>
-    const root = document.documentElement;
-    const toggle = document.getElementById('theme-toggle');
-    const stored = localStorage.getItem('cv-theme');
-    if(stored === 'dark') root.setAttribute('data-theme','dark');
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo">ARC</div>
+          <div>
+            <h3>Abdul Rehman Chishti</h3>
+            <p>Cybersecurity Student • Frontend Developer • IT Specialist</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/abdul-rehman-chishti-437659347" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://wa.me/923326385155" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://github.com/itsarmy786" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:abdulrehmanchishtifarooqui@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Abdul Rehman Chishti. All rights reserved.</p>
+        <p class="footer-note">Securely built with <i class="fas fa-heart"></i> for the cybersecurity community</p>
+      </div>
+    </div>
+  </footer>
 
-    toggle.addEventListener('click', () => {
-      if(root.getAttribute('data-theme') === 'dark'){
-        root.removeAttribute('data-theme');
-        localStorage.setItem('cv-theme','light');
-        toggle.innerHTML = '<i class="fas fa-moon"></i>';
-      } else {
-        root.setAttribute('data-theme','dark');
-        localStorage.setItem('cv-theme','dark');
-        toggle.innerHTML = '<i class="fas fa-sun"></i>';
-      }
-    });
-  </script>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
-
